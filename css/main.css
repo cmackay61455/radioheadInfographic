@@ -1,0 +1,60 @@
+@charset "UTF-8";
+/* CSS Document */
+
+.hidden
+{
+	display: none;
+}
+
+
+
+  .boxHelper
+{
+	color: #fff;
+	background-color: #000;
+	text-align: center;
+}
+
+#header h2
+{
+	text-align: center;
+	padding-bottom: 20px;
+	font-size: 50px;
+	position: absolute;
+}
+
+
+#bandMembers 
+{
+	margin-top: 40px;
+	overflow: hidden; /*fixes colapsing parent*/
+	border-bottom: solid 1px #DDD;
+	padding-bottom: 40px;
+	margin-left: 55px;
+}
+
+#bandMembers h2
+{
+	text-align: center;
+	margin-right: 30px;
+	padding-bottom: 20px;
+	font-size: 50px;
+}
+
+.productDesc 
+{
+	float:left;
+	width: 200px;
+	margin-right: 50px
+}
+
+.productDescLast 
+{
+	float:right;
+	width: 200px;
+}
+
+
+
+
+
