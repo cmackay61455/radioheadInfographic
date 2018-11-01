@@ -5,6 +5,7 @@
 <title>Radiohead Infographic</title>
 <link href="css/reset.css" rel="stylesheet" type="text/css"> <!-- links to reset CSS sheet -->
 <link href="css/main.css" rel="stylesheet" type="text/css">
+<link rel="stylesheet" href="css/animate.css">
 </head>
 
 <body>
@@ -21,15 +22,59 @@
 
 <section id="bandMembers">
         <h2>BAND MEMBERS</h2>
-        <div class="productDesc"><img src="images/Thom--Yorke.png" alt="Thom Yourk, age 50" class="thom">
-        <span>text</span>
+        <div class="members1"><img src="images/Thom--Yorke.png" alt="Thom Yourk, age 50" class="thom"></div>
+        <div class="members2"><img src="images/EdOBrien.png" alt="Ed O'Brien, age 50" class="ed"></div>
+        <div class="members3"><img src="images/jonnygreenwood.png" alt="Jonny Greenwood, age 46" class="jonny"></div>
+        <div class="members4"><img src="images/colingreenwood.png" alt="Colin Greenwood, age 49" class="colin"></div>
+        <div class="members5"><img src="images/p01bqnn8.png" alt="philip Selway, age 51" class="philipLast"></div>
+       
+        <div class="small-6 columns" id="membersData">
+            <h4 class="modelName">Member Name</h4>
+            <p class="priceInfo">Age of Member</p>
+            <p class="modelDetails">Position</p>
         </div>
-        <div class="productDesc"><img src="images/EdOBrien.png" alt="Ed O'Brien, age 50" class="ed"></div>
-        <div class="productDesc"><img src="images/jonnygreenwood.png" alt="Jonny Greenwood, age 46" class="jonny"></div>
-        <div class="productDesc"><img src="images/colingreenwood.png" alt="Colin Greenwood, age 49" class="colin"></div>
-        <div class="productDescLast"><img src="images/p01bqnn8.png" alt="philip Selway, age 51" class="philipLast"></div>
-
+      </div> 
     </section>
+
+
+    <section id="albums">
+            <div class="row1">
+                   <div class="wow bounceInLeft" id="pablohoney"> <img src="images/desktop/pablohoney.png" alt="pablo honey"> </div>
+                   <div class="wow bounceInRight" id="thebends"> <img src="images/desktop/thebends.png" alt="the bends"> </div>
+            </div>
+            <div class="row2">
+                <div class="wow bounceInLeft" id="okcomputer"><img src="images/desktop/okcomputer.png" alt="ok computer"></div>
+                <div class="wow bounceInRight" id="kida"><img src="images/desktop/kida.png" alt="kid a"></div>
+           </div>
+           <div class="row3">
+                <div class="wow bounceInLeft" id="amnesiac"><img src="images/desktop/amnesiac.png" alt="amnesiac"></div>
+                <div class="wow bounceInRight" id="hailtothethief"><img src="images/desktop/hailtothethief.png" alt="hail to the thief"></div>
+        </div>
+        <div class="row4">
+                <div class="wow bounceInLeft" id="thekingoflimbs"><img src="images/desktop/thekingoflimbs.png" alt="the king of limbs"></div>
+                <div class="wow bounceInRight" id="amoonshapedpool"><img src="images/desktop/amoonshapedpool.png" alt="a moon shaped pool"></div>
+        </div>
+    </section>
+
+    <section id="topHits">
+        <h2>BEST SELLING SINGLES</h2>
+        <div id="square">
+        <div id="topRow">
+        <div class="nosurprises"> <img src="images/desktop/nosurprises.png" alt="no surprises"></div>
+        <div class="paranoidandroid"> <img src="images/desktop/paranoidandroid.png" alt="paranoid android"></div>
+        </div>
+        <div id="bottomRow">
+        <div class="creep"> <img src="images/desktop/creep.png" alt="creep"></div>
+        <div class="karmapolice"> <img src="images/desktop/karmapolice.png" alt="karmapolice"></div>
+        </div>
+        </div>
+        
+            </section>
+
+
+            <div class="wow bounceInUp">
+                Content to Reveal Here
+                </div>
 
 
 
@@ -38,15 +83,12 @@
 
  
 
-            <section class="row">
-
-                    <div class="small-11 small-centered columns">
-                            <p class="boxHelper">box1</p>
-                        </div>
-
-            </section>
+        
     
-
-<script src="js/main.js"></script> <!-- links to JS -->
+            <script src="js/wow.js"></script>
+            <script>
+            new WOW().init();
+            </script>
+<script src="js/main.js"></script> 
 </body>
 </html>

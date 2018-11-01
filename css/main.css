@@ -31,6 +31,7 @@
 	border-bottom: solid 1px #DDD;
 	padding-bottom: 40px;
 	margin-left: 55px;
+	height: 320px;
 }
 
 #bandMembers h2
@@ -41,18 +42,150 @@
 	font-size: 50px;
 }
 
-.productDesc 
+#memberData, h4, p
 {
-	float:left;
-	width: 200px;
-	margin-right: 50px
+	margin-left: 1000px;
+	font-size: 50px; 
+	
 }
 
-.productDescLast 
+.members1
 {
-	float:right;
-	width: 200px;
+	bottom: 0;
+	float: left;
+	margin-right: 30px;
 }
+
+.members2
+{
+	bottom: 0;
+	float: left;
+	margin-right: 30px;
+}
+
+.members3
+{
+	bottom: 0;
+	float: left;
+	margin-right: 30px;
+}
+
+.members4
+{
+	bottom: 0;
+	float: left;
+	margin-right: 30px;
+}
+
+.members5
+{
+	bottom: 0;
+	float: left;
+}
+
+#pablohoney
+{
+	float: left;
+}
+
+#thebends
+{
+	float: right;
+	margin-right: 355px;
+}
+
+#okcomputer
+{
+	float: left;
+}
+
+#kida
+{
+	float: right;
+	margin-right: 355px;
+}
+
+#amnesiac
+{
+	float: left;
+}
+
+#hailtothetheif
+{
+	float: right;
+	margin-right: 355px;
+}
+
+#thekingoflimbs
+{
+	float: left;
+}
+
+#amoonshapedmoon
+{
+	float: right;
+	margin-right: 355px;
+}
+
+.row1
+{
+	margin-left: 300px;
+	margin-top: 50px;
+}
+
+.row2
+{
+	margin-left: 300px;
+}
+
+.row3
+{
+	margin-left: 300px;
+}
+
+.row4
+{
+	margin-left: 300px;
+	margin-bottom: 50px;
+}
+
+
+
+
+
+
+
+
+#topRow
+{
+	margin-left: 100px;
+	padding-top: 50px;
+}
+
+#bottomRow
+{
+	margin-left: 100px;
+	padding-top: 50px;
+}
+.nosurprises
+{
+	float: left;
+	width: 600px;
+	padding-right: 50px;
+}
+
+.creep
+{
+	float: left;
+	width: 600px;
+	padding-right: 50px;
+}
+
+#wow bounceInUp
+{
+	background-color: #000;
+}
+
 
 
 
